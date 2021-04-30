@@ -1,0 +1,9 @@
+.Caruosel-container{
+    position: absolute;
+}
+.Sale{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+}
