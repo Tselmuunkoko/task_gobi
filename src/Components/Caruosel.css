@@ -1,9 +1,29 @@
+@font-face {
+    font-family: 'MrDafoe';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MrDafoe-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
 .Caruosel-container{
     position: absolute;
 }
-.Sale{
+.Sale-container{
     position: absolute;
     top: 30%;
     left: 50%;
     color: white;
+}
+.summer{
+    font-size: 6vw;
+    font-weight: 500;
+    /* font-family: l */
+}
+.sale{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    font-size: 4vw;
+    font-family:'MrDafoe';
+    color: #E85757;
+    transform: rotate(-9deg);
 }

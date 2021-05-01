@@ -1,25 +1,35 @@
 .Header_lang{
     background-color: #3A416F;
     width: 100%;
-    height: 2rem;
+    height: 2vw;
     display: flex;
     flex-wrap: nowrap;
 }
-.Header_lang p{
+.Header_lang div{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    font-size: 12px;
-    display: block;
-    width: 33%;
-    padding: 0%;
-    margin: 0%;
+    font-size: 1vw;
+    width: 33.3333%;
+    margin-top: 0.4vw;
 }
 .Lang{
+    margin-left:2vw;
     text-align: left;
+}
+.Lang img {
+    margin-right: 20vw;
 }
 .Order{
     text-align: center;
 }
+.Order a{
+    color: white;
+}
 .Logsign{
-    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Logsign div{
+    margin: 0%;
+    width: 16%;
 }
