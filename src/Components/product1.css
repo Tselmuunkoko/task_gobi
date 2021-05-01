@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Lato-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+.Product1{
+    margin-top: 2vw;
+    padding-bottom: 8vw;
+    padding-top: 8vw;
+    background-color: #F7F8FB;
+    border-radius: 2vw;
+    width: 100%;
+    height: 150vw;
+}
+.intro{
+    height: 40%;
+    text-align: center;
+    width: 100%;
+}
+.imgbox{
+    height: 60%;
+    width: 100%;
+    /* margin-bottom: 2vw; */
+}
+.img-container{
+    display: flex;
+    width: 95%;
+    padding: 2.5vw;
+    height: 100%;
+}
+.big{
+    width: 63%;
+    height: inherit;
+    padding: 0%;
+    margin: 0;
+}
+.small{
+    padding: 0%;
+    width: 37%;
+    height: inherit;
+}
+.big img{
+    width: 98%; /* width of container */
+    height: inherit; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%; /* try 20px 10px */ 
+}
+.small2 ,.small1{
+    display: block;
+    width: 100%; /* width of container */
+    height: 50%; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%; 
+}
+.small1{
+    margin-bottom: 0.5vw;
+}
+.shop-2{
+    display: inline;
+    color: white;
+    font-size: 5vw;
+    height: 10vw;
+    background-color: #272727;
+    border:none;
+    border-radius: 2vw;
+    width: 45%;
+    margin-top: 8vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.winter{
+    font-family: 'Lato';
+    font-size: 8vw;
+    font-weight: 600;
+}
+.lorem{
+    font-size: 5vw;
+    margin: 5vw;
+    color: #636363;
+}
+.lorem-2{
+    display: none;
+    padding-right: 5vw;
+}
+.lorem-2 p{
+    font-size: 1vw;
+    text-align: right;
+    color: #636363;
+}
+
+@media only screen and (min-width: 600px) {
+    .Product1{
+        background: none;
+        height: 40vw;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .lorem-2{
+        display: block;
+    }
+    .intro{
+        height: 100%;
+        width: 40%;
+        text-align: left;
+        margin-top: 8vw;
+    }
+    .winter{
+        font-size: 3vw;
+        text-align: left;
+    }
+    .lorem{
+        font-size: 1.5vw;
+        margin: 0vh;
+        text-align: left;
+    }
+    .shop-2{
+        font-size: 1vw;
+        color: white;
+        background-color: black;
+        height: 4vw;
+        width: 35%;
+        border-radius: 0.5vw;
+        top: 5vw;
+        margin-left: 0vh;
+    }
+    .imgbox{
+        height: 100%;
+        width: 55%;
+    }
+    .big img{
+        height: 40.5vw;
+    }
+    .img-container{
+        padding: 0%;
+    }
+}
+@media only screen and (min-width: 768px) {}

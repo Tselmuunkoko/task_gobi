@@ -4,26 +4,156 @@
     font-weight: 400;
     src: url('../fonts/MrDafoe-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
   }
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Lato-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+.pos{
+    width: 100%;
+    height: 220vw;
+    text-align: center;
+}
 .Caruosel-container{
+    width: 100%;
     position: absolute;
+}
+.Caruosel-container img{
+    width: inherit; /* width of container */
+    height: 150vw; 
+    object-fit: cover;
+    object-position: 25% 10%
 }
 .Sale-container{
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(238,243,255,1) 80%);
     position: absolute;
-    top: 30%;
-    left: 50%;
-    color: white;
+    top: 120vw;
+    left: 3%;
+    width: 84%;
+    padding: 5vw;
+    border-radius: 5vw;
+    height: 90vw;
+    text-align: center;
+}
+.summer-sale{
+    position: relative;
 }
 .summer{
-    font-size: 6vw;
+    margin-top: 10vw;
+    font-size: 15vw;
     font-weight: 500;
-    /* font-family: l */
 }
 .sale{
     position: absolute;
     left: 35%;
-    top: 30%;
-    font-size: 4vw;
+    top: 50%;
+    font-size: 15vw;
     font-family:'MrDafoe';
     color: #E85757;
     transform: rotate(-9deg);
+}
+.off{
+    margin-top: 15%;
+    margin-left: 15vw;
+    font-weight: 500;
+    font-family: 'Lato';
+}
+.upto{
+    float: left;
+}
+.upto p{
+    font-size: 6vw;
+    padding: 0%;
+}
+.sixty{
+    float: left;
+    display: flex;
+}
+.sixty_num{
+    margin-top: 0%;
+    font-size: 20vw;
+}
+.sixty_per{
+    margin-top: 39%;
+    font-size: 10vw;
+}
+.ff{
+    font-size: 6vw;
+    float: left;
+    font-weight: 700;
+    margin-top: 26%;
+}
+.shop{
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 5vw;
+    height: 10vw;
+    background-color: black;
+    border:none;
+    border-radius: 2vw;
+    width: 45%;
+    margin-top: 30vw;
+    left: 25vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+@media only screen and (min-width: 600px) {
+    .pos{
+        height: 50vw;
+    }
+    .Sale-container{
+        color: white;
+        background: none;
+        position: absolute;
+        top: 2vw;
+        left: 50%;
+        width: 40%;
+        height: inherit;
+        text-align: center;
+    }
+    .summer{
+        
+        font-size: 7vw;
+    }
+    .sale{
+        margin-top: 1%;
+        left: 40%;
+        font-size: 5vw;
+    }
+    .off{
+       margin-left: 25%;
+       margin-top: 10%;
+    }
+    .upto p{
+        font-size: 2vw;
+    }
+    .sixty_num{
+        font-size: 7vw;
+    }
+    .sixty_per{
+        font-size: 4vw;
+        margin-top: 20%;
+    }
+    .ff{
+        font-size: 2vw;
+        margin-top: 15%;
+    }
+    .shop{
+        font-size: 1vw;
+        color: black;
+        background-color: white;
+        height: 3vw;
+        width: 25%;
+        left: 38%;
+        border-radius: 0.5vw;
+        top: 10vw;
+    }
+    .Caruosel-container img{
+        width: 100%;
+        height: auto; 
+    }
+}
+@media only screen and (min-width: 768px){
 }

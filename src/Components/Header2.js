@@ -3,9 +3,15 @@ import logo from '../images/icons/govi.png'
 import stop_icon from '../images/icons/stop.png'
 import favor_icon from '../images/icons/favorite.png'
 import bag_icon from '../images/icons/bag.png'
+import search_icon from '../images/icons/search.png'
+import menu_icon from '../images/icons/Menu.png'
 function Header2() {
     return (
         <div className="Header_Menu">
+            <div className="little_menu">
+                <img src={menu_icon} width="25vw" ></img>
+                <img src={search_icon} width="25vw" ></img>
+            </div>
             <div className="Menu">
                 <ul>
                     <li><a href='#'>WOMEN</a></li>
@@ -16,7 +22,7 @@ function Header2() {
                 </ul>
             </div>
            <div className="Govi-logo">
-            <img src={logo} width='90vw' height='40vw'></img>
+            <img src={logo} width='60vw' height='30vw'></img>
            </div>
            <div className="search">
             <div className="search-box">
